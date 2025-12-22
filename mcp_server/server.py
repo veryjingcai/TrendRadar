@@ -9,7 +9,7 @@ import json
 from typing import List, Optional, Dict
 
 from fastmcp import FastMCP
-
+FastMCP = Server(name="MyTrendRadar")
 from .tools.data_query import DataQueryTools
 from .tools.analytics import AnalyticsTools
 from .tools.search_tools import SearchTools
